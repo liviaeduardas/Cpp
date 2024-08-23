@@ -1,6 +1,6 @@
 /*Programa com menu de opções
 - use for ou while para repetir até o usuário digitar 0
-- use switch case para alternar entre as opções:
+- opções:
 1. inserir carro
 2. mostrar todos os carros
 3. buscar um carro e mostrar
