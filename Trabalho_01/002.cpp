@@ -16,7 +16,7 @@
  	char* ponteiro_char = &n;
  	
  	cout << "VALORES INICIAIS:" << endl;
- 	cout << "Inteiro: " << *ponteiro_int << " | " << "Real: " << *ponteiro_float << " | " << "Char: " << *ponteiro_char << endl;
+ 	cout << "Inteiro: " << inteiro<< " | " << "Real: " << real << " | " << "Char: " << n << endl;
  	
  	*ponteiro_int = 10;
  	*ponteiro_float = 89.67;
