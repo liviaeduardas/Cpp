@@ -18,7 +18,7 @@
  {
  	int a = 10;
  	int b = 21;
- 	cout << "Valores Iniciais: a = " << a << " b = " << b << endl;
+ 	cout << "Valores iniciais: a = " << a << " b = " << b << endl;
  	Troca(a, b);
  	cout << endl << "Novos valores: a = " << a << " b = " << b;
  	return 0;
