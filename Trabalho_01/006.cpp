@@ -3,7 +3,6 @@
  Não utilize índices para percorrer o array, apenas aritmética de ponteiros.*/
  
 #include<iostream>
-#include<vector>
 using namespace std;
 
 void imprimir(int *v)
