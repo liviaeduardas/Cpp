@@ -29,6 +29,5 @@ int main()
 	cout << "AREA DA SUPERFICE: " << ar << " cm^2" << endl;
 	cout << "VOLUME: " << vol << " cm^3";
 	
-	
 	return 0;
 }
