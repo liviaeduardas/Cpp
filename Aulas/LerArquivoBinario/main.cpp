@@ -344,13 +344,16 @@ void Menu(int num)
 			cout << "\t2) Escolher personagens"<< endl;
 			cout << "\t3) Descricao do cenario 1" << endl;
 			cout << "\t4) Jogar" << endl;
+			cout << "\t5) Saida" << endl;
 			cout << "\tEscolha uma opcao: ";
 			cin >> resp;
-			while(resp != 1 && resp != 2 && resp != 3 && resp != 4)
+			while(resp != 1 && resp != 2 && resp != 3 && resp != 4 && resp != 5)
 			{
 			    cout << "\tResposta invalida! Escolha entre 1, 2, 3 ou 4: ";
 			    cin >> resp;
 			}
+			if (resp == 5)
+				exit(0);
 			if (resp == 4)
 				break;
 			if(resp == 1)
@@ -370,13 +373,16 @@ void Menu(int num)
 			cout << "\t2) Mudar personagens"<< endl;
 			cout << "\t3) Descricao do cenario 2" << endl;
 			cout << "\t4) Jogar" << endl;
+			cout << "\t5) Saida" << endl;
 			cout << "\tEscolha uma opcao: ";
 			cin >> resp;
-			while(resp != 1 && resp != 2 && resp != 3 && resp != 4)
+			while(resp != 1 && resp != 2 && resp != 3 && resp != 4 && resp != 5)
 			{
 			    cout << "\tResposta invalida! Escolha entre 1, 2, 3 ou 4: ";
 			    cin >> resp;
 			}
+			if (resp == 5)
+				exit(0);
 			if (resp == 4)
 				break;
 			if(resp == 1)
@@ -399,13 +405,16 @@ void Menu(int num)
 			cout << "\t2) Mudar personagens"<< endl;
 			cout << "\t3) Descricao do cenario 3" << endl;
 			cout << "\t4) Jogar" << endl;
+			cout << "\t5) Saida" << endl;
 			cout << "\tEscolha uma opcao: ";
 			cin >> resp;
-			while(resp != 1 && resp != 2 && resp != 3 && resp != 4)
+			while(resp != 1 && resp != 2 && resp != 3 && resp != 4 && resp != 5)
 			{
 			    cout << "\tResposta invalida! Escolha entre 1, 2, 3 ou 4: ";
 			    cin >> resp;
 			}
+			if (resp == 5)
+				exit(0);
 			if (resp == 4)
 				break;
 			if(resp == 1)
@@ -433,10 +442,11 @@ bool personagem_existe(const string& nome, const vector<Personagem>& personagens
     return false; 
 }
 
-void salvarEstadoJogo(const std::vector<Personagem>& personagens, string vilao, int turno, int vida, int nivel) 
+void salvarEstadoJogo(const vector<Personagem>& personagens, string vilao, int turno, int vida, int nivel) 
 {
     ofstream arquivo("estado_jogo.txt", ios::app); // Abre em modo de adição
-    if (!arquivo.is_open()) {
+    if (!arquivo.is_open()) 
+	{
         cout << "Erro ao abrir o arquivo!" << std::endl;
         return;
     }
@@ -444,7 +454,8 @@ void salvarEstadoJogo(const std::vector<Personagem>& personagens, string vilao, 
 	arquivo << "---- NIVEL " << nivel << " ----\n";
     arquivo << "---- Turno " << turno << " ----\n";
     arquivo << "Personagens:\n";
-    for (const auto& personagem : personagens) {
+    for (const auto& personagem : personagens) 
+	{
         arquivo << "Nome: " << personagem.nome << ", Vida: " << personagem.vida << "\n";
     }
     arquivo << "Vilão:\n";
@@ -1023,6 +1034,7 @@ int main()
 	        p1.clear();
 	    }
 	}while(retorno == 1);
+
 
     return 0;
 }			
