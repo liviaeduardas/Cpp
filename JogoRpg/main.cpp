@@ -447,7 +447,7 @@ void salvarEstadoJogo(const vector<Personagem>& personagens, string vilao, int t
     ofstream arquivo("estado_jogo.txt", ios::app); // Abre em modo de adiÃ§Ã£o
     if (!arquivo.is_open()) 
 	{
-        cout << "Erro ao abrir o arquivo!" << std::endl;
+        cout << "Erro ao abrir o arquivo!" << endl;
         return;
     }
 	
@@ -458,7 +458,7 @@ void salvarEstadoJogo(const vector<Personagem>& personagens, string vilao, int t
 	{
         arquivo << "Nome: " << personagem.nome << ", Vida: " << personagem.vida << "\n";
     }
-    arquivo << "VilÃ£o:\n";
+    arquivo << "Vilao:\n";
     arquivo << "Nome: " << vilao<< ", Vida: " << vida << "\n";
     arquivo << "---------------------\n";
     arquivo.close();
@@ -944,7 +944,7 @@ void NovosAtributos(int nivel)
 		this_thread::sleep_for(std::chrono::seconds(1));
 		cout << "\tDepois de superar armadilhas engenhosas e derrotar o temivel Guardiao do Tempo," << endl;
 		cout << "\tos guerreiros se veem diante de uma visao espetacular." << endl;
-		cout << "\tUma luz azulada comeÃ§a a brilhar intensamente no centro das ruinas." << endl;
+		cout << "\tUma luz azulada comeca a brilhar intensamente no centro das ruinas." << endl;
 		cout << "\tA distorcao temporal lentamente se desfaz, revelando uma peca do antigo artefato!" << endl << endl;
 		cout << "\tCom mais um fragmento em maos, o destino de Aurora Sombria esta um passo mais proximo de ser restaurado." << endl << endl;
 		this_thread::sleep_for(std::chrono::seconds(2));
