@@ -1,152 +1,64 @@
 ---- NIVEL 1 ----
 ---- Turno 1 ----
 Personagens:
-Nome: GUERREIRO, Vida: 7
 Nome: DRAGAO, Vida: 20
-VilÃ£o:
-Nome: GUARDIAO DAS RAIZES, Vida: 10
----------------------
----- NIVEL 1 ----
----- Turno 2 ----
-Personagens:
-Nome: GUERREIRO, Vida: 7
-Nome: DRAGAO, Vida: 20
-VilÃ£o:
-Nome: GUARDIAO DAS RAIZES, Vida: 0
----------------------
----- NIVEL 2 ----
----- Turno 2 ----
-Personagens:
-Nome: GUERREIRO, Vida: 22
-Nome: DRAGAO, Vida: 7
-VilÃ£o:
-Nome: GUARDIAO DO TEMPO, Vida: 14
----------------------
----- NIVEL 2 ----
----- Turno 3 ----
-Personagens:
-Nome: GUERREIRO, Vida: 12
-Nome: DRAGAO, Vida: 7
-VilÃ£o:
-Nome: GUARDIAO DO TEMPO, Vida: 2
----------------------
----- NIVEL 2 ----
----- Turno 4 ----
-Personagens:
-Nome: GUERREIRO, Vida: 2
-Nome: DRAGAO, Vida: 7
-VilÃ£o:
-Nome: GUARDIAO DO TEMPO, Vida: 0
----------------------
----- NIVEL 3 ----
----- Turno 2 ----
-Personagens:
-Nome: GUERREIRO, Vida: 25
-Nome: DRAGAO, Vida: 10
-VilÃ£o:
-Nome: DRAGAO FANTASMA, Vida: 23
----------------------
----- NIVEL 3 ----
----- Turno 3 ----
-Personagens:
-Nome: GUERREIRO, Vida: 14
-Nome: DRAGAO, Vida: 10
-VilÃ£o:
-Nome: DRAGAO FANTASMA, Vida: 8
----------------------
----- NIVEL 3 ----
----- Turno 3 ----
-Personagens:
-Nome: GUERREIRO, Vida: 0
-Nome: DRAGAO, Vida: 10
-VilÃ£o:
-Nome: DRAGAO FANTASMA, Vida: 8
----------------------
----- NIVEL 1 ----
----- Turno 1 ----
-Personagens:
-Nome: GUARDIAO, Vida: 7
-Nome: GUERREIRO, Vida: 20
-Vilao:
-Nome: GUARDIAO DAS RAIZES, Vida: 10
----------------------
----- NIVEL 1 ----
----- Turno 2 ----
-Personagens:
-Nome: GUARDIAO, Vida: 7
-Nome: GUERREIRO, Vida: 8
-Vilao:
-Nome: GUARDIAO DAS RAIZES, Vida: 3
----------------------
----- NIVEL 1 ----
----- Turno 3 ----
-Personagens:
-Nome: GUARDIAO, Vida: 7
-Nome: GUERREIRO, Vida: 8
-Vilao:
-Nome: GUARDIAO DAS RAIZES, Vida: 0
----------------------
----- NIVEL 2 ----
----- Turno 2 ----
-Personagens:
-Nome: GUARDIAO, Vida: 22
-Nome: GUERREIRO, Vida: 10
-Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 17
----------------------
----- NIVEL 2 ----
----- Turno 3 ----
-Personagens:
-Nome: GUARDIAO, Vida: 9
-Nome: GUERREIRO, Vida: 10
-Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 3
----------------------
----- NIVEL 2 ----
----- Turno 3 ----
-Personagens:
-Nome: GUARDIAO, Vida: 9
-Nome: GUERREIRO, Vida: 0
-Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 3
----------------------
----- NIVEL 1 ----
----- Turno 1 ----
-Personagens:
-Nome: DRAGAO, Vida: 6
-Nome: GUERREIRO, Vida: 20
+Nome: GUERREIRO, Vida: 6
 Vilao:
 Nome: GUARDIAO DAS RAIZES, Vida: 9
 ---------------------
 ---- NIVEL 1 ----
 ---- Turno 2 ----
 Personagens:
-Nome: DRAGAO, Vida: 6
-Nome: GUERREIRO, Vida: 20
+Nome: DRAGAO, Vida: 20
+Nome: GUERREIRO, Vida: 6
 Vilao:
 Nome: GUARDIAO DAS RAIZES, Vida: 0
 ---------------------
 ---- NIVEL 2 ----
+---- Turno 1 ----
+Personagens:
+Nome: DRAGAO, Vida: 10
+Nome: GUERREIRO, Vida: 20
+Vilao:
+Nome: GUARDIAO DO TEMPO, Vida: 19
+---------------------
+---- NIVEL 2 ----
 ---- Turno 2 ----
 Personagens:
-Nome: DRAGAO, Vida: 22
-Nome: GUERREIRO, Vida: 10
+Nome: DRAGAO, Vida: 10
+Nome: GUERREIRO, Vida: 7
 Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 15
+Nome: GUARDIAO DO TEMPO, Vida: 5
 ---------------------
 ---- NIVEL 2 ----
 ---- Turno 3 ----
 Personagens:
-Nome: DRAGAO, Vida: 11
-Nome: GUERREIRO, Vida: 10
+Nome: DRAGAO, Vida: 10
+Nome: GUERREIRO, Vida: 7
 Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 4
+Nome: GUARDIAO DO TEMPO, Vida: 0
 ---------------------
----- NIVEL 2 ----
+---- NIVEL 3 ----
+---- Turno 2 ----
+Personagens:
+Nome: DRAGAO, Vida: 12
+Nome: GUERREIRO, Vida: 25
+Vilao:
+Nome: DRAGAO FANTASMA, Vida: 24
+---------------------
+---- NIVEL 3 ----
 ---- Turno 3 ----
 Personagens:
-Nome: DRAGAO, Vida: 0
-Nome: GUERREIRO, Vida: 10
+Nome: DRAGAO, Vida: 12
+Nome: GUERREIRO, Vida: 11
 Vilao:
-Nome: GUARDIAO DO TEMPO, Vida: 4
+Nome: DRAGAO FANTASMA, Vida: 8
+---------------------
+---- NIVEL 3 ----
+---- Turno 4 ----
+Personagens:
+Nome: DRAGAO, Vida: 1
+Nome: GUERREIRO, Vida: 11
+Vilao:
+Nome: DRAGAO FANTASMA, Vida: 0
 ---------------------

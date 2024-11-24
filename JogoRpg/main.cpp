@@ -14,8 +14,8 @@ struct Personagem
 {
 	string nome;
 	string atributos;
-	int protecao; // protege de ataque
-	int dano; // dano no inimigo
+	int protecao; 
+	int dano; 
 	int forca;
 	int agilidade;
 	int vida = 20;
@@ -299,7 +299,8 @@ void DescricaoCenario(int cenario)
     else if (cenario == 3)
     {
     	cout << endl<<"------------------------------------------------------------------------------------------------------------------------------------------------------------" << endl << endl;
-        cout << "\t\t--- ABISMO DAS ALMAS ---" << endl << endl;
+        cout << "\t\t\t\tDECRICAO CENARIO: NIVEL " << cenario << endl << endl;
+		cout << "\t\t--- ABISMO DAS ALMAS ---" << endl << endl;
         cout << "\tUma caverna profunda e desolada, onde os ecos das almas aprisionadas ainda ressoam." << endl;
         cout << "\tE o lugar mais sombrio e perigoso de Aurora Sombria, repleto de monstros brutais e um guardiao final temivel" << endl;
         cout << "\tEsse e o destino dos herois mais corajosos." << endl << endl;
@@ -444,7 +445,7 @@ bool personagem_existe(const string& nome, const vector<Personagem>& personagens
 
 void salvarEstadoJogo(const vector<Personagem>& personagens, string vilao, int turno, int vida, int nivel) 
 {
-    ofstream arquivo("estado_jogo.txt", ios::app); // Abre em modo de adiÃ§Ã£o
+    ofstream arquivo("estado_jogo.txt", ios::app); 
     if (!arquivo.is_open()) 
 	{
         cout << "Erro ao abrir o arquivo!" << endl;
